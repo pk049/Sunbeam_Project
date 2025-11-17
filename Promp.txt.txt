@@ -1,0 +1,4 @@
+React app takes input as prompt ..Then that prompt is send to proper MCP client (like for mongomcp -->/api/mongo for email mcp /api/email )hosted by flask in python..There prompt goes to proper agent dur to api and then to model with tools info based on agent and model tells which tool to call ..Then we call that tool on MCP server using fastmcp client...Then response is fetcehd in python client that prompt is agian send to LLM and Humanized and again send to react app...
+   
+
+Is this a correct and standard Project architecture ?
